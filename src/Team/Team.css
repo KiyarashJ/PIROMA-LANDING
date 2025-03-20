@@ -1,108 +1,21 @@
-/* .KJ{
-    margin: 70px 0 ;
-    background: linear-gradient(to bottom right , blue , limegreen , orange);
-    background-clip: text;
-    background-size: 500% 500%;
-    -webkit-text-fill-color: transparent;
-    animation: TextAnim 2s infinite ease-in-out running;
-    font-size: 3rem;
-}
-@keyframes TextAnim {
-    0%{
-        background-position: 0% 40%;
-    }
-    25%{
-        background-position: 45% 86%;
-    }
-    50%{
-        background-position: 78% 100%;
-    }
-    75%{
-        background-position: 38% 64%;
-    }
-    100%{
-        background-position: 0% 35%;
-    }
-}
-.TeamAllContainer{
-    width: 100%;
-    display: flex;
-    justify-content: space-around;
-}
-.TeamContainer{
-    width: 20%;
-    border-radius: 15px;
-    overflow: hidden;
-    background-color: rgba(73, 0, 122, 0.3);
-    box-shadow: 2px 2px 10px 1px rgba(0, 0, 0, 0.1);
-}
-.PersonContainer{
-    width: 100%;
-}
-.PersonContainer>img{
-  width: 100%;
-}
-.PersonelInfoCon{
-    width: 100%;
-}
-.PersonelInfoCon>p , .PersonelInfoCon>h3{
-    margin: 20px 10px;
-}
-.PersonelInfoCon>p{
-    font-weight: 300;
-    color: #919191;
-}
-.PersonelInfoCon>h3{
-    font-weight: 500;
-    color: #292929;
-} */
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/* ریست اولیه برای جلوگیری از اسکرول افقی */
 body {
     margin: 0;
     padding: 0;
     overflow-x: hidden;
   }
   
-  /* عنوان انیمیشنی */
   .KJ {
-    margin: 4rem 0; /* 70px به rem برای نسبی بودن */
+    margin: 4rem 0;
     background: linear-gradient(to bottom right, blue, limegreen, orange);
     background-clip: text;
     background-size: 500% 500%;
     -webkit-text-fill-color: transparent;
     animation: TextAnim 2s infinite ease-in-out running;
-    font-size: clamp(1.5rem, 6vw, 3rem); /* حداقل 1.5، حداکثر 3 */
-    text-align: center; /* وسط‌چین برای موبایل */
+    font-size: clamp(1.5rem, 6vw, 3rem); 
+    text-align: center; 
   }
   
-  /* انیمیشن */
   @keyframes TextAnim {
     0% { background-position: 0% 40%; }
     25% { background-position: 45% 86%; }
@@ -111,63 +24,58 @@ body {
     100% { background-position: 0% 35%; }
   }
   
-  /* کانتینر اصلی */
   .TeamAllContainer {
     width: 100%;
     display: flex;
-    flex-wrap: wrap; /* توی موبایل زیر هم بره */
+    flex-wrap: wrap; 
     justify-content: space-around;
-    gap: 1rem; /* فاصله بین کارت‌ها */
-    padding: 1rem; /* فاصله از لبه‌ها */
+    gap: 1rem; 
+    padding: 1rem; 
   }
   
-  /* هر کارت تیم */
   .TeamContainer {
-    width: 90%; /* توی موبایل 90% */
-    max-width: 300px; /* حداکثر عرض */
+    width: 90%; 
+    max-width: 300px; 
     border-radius: 15px;
     overflow: hidden;
     background-color: rgba(73, 0, 122, 0.3);
     box-shadow: 2px 2px 10px 1px rgba(0, 0, 0, 0.1);
   }
   
-  /* عکس */
   .PersonContainer {
     width: 100%;
   }
   .PersonContainer > img {
     width: 100%;
-    height: auto; /* تناسب عکس حفظ شه */
+    height: auto; 
   }
   
-  /* اطلاعات شخص */
   .PersonelInfoCon {
     width: 100%;
-    padding: 1rem; /* پدینگ نسبی */
+    padding: 1rem; 
   }
   .PersonelInfoCon > p,
   .PersonelInfoCon > h3 {
-    margin: 0.5rem 0; /* مارجین کمتر برای موبایل */
+    margin: 0.5rem 0; 
   }
   .PersonelInfoCon > p {
     font-weight: 300;
     color: #919191;
-    font-size: clamp(0.875rem, 3vw, 1rem); /* فونت نسبی */
+    font-size: clamp(0.875rem, 3vw, 1rem); 
   }
   .PersonelInfoCon > h3 {
     font-weight: 500;
     color: #292929;
-    font-size: clamp(1rem, 4vw, 1.25rem); /* فونت نسبی */
+    font-size: clamp(1rem, 4vw, 1.25rem); 
   }
   
-  /* ریسپانسیو برای تبلت و دسکتاپ */
   @media (min-width: 640px) {
     .TeamContainer {
-      width: 45%; /* توی تبلت 45% */
+      width: 45%; 
     }
   }
   @media (min-width: 1024px) {
     .TeamContainer {
-      width: 20%; /* توی دسکتاپ 20% */
+      width: 20%; 
     }
   }

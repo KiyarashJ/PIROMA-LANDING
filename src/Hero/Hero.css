@@ -1,107 +1,58 @@
-/* .HeroContainer{
-    width: 100%;
-    height: 100vh;
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-}
-.ImageContainer{
-    width: 48%;
-    height: auto;
-}
-.ImageContainer>img{
-    width: 100%;
-    height: auto;
-    border-radius: 10px;
-}
-.HeroTextContainer{
-    width: 48%;
-    height: auto;
-}
-.HeroTextContainer>p{
-    width: 100%;
-    height: auto;
-    text-align: justify;
-}
-.HeroTitle{
-    background: linear-gradient(45deg , #e6da00 , #af4261 , violet);
-    background-clip: text;
-    -webkit-text-fill-color: transparent;
-} */
 
-
-
-
-
-
-
-
-
-
-
-
-/* ریست اولیه */
 body {
     margin: 0;
     padding: 0;
     overflow-x: hidden;
   }
   
-  /* کانتینر اصلی هیرو */
   .HeroContainer {
     width: 100%;
-    min-height: 100vh; /* حداقل ارتفاع، توی موبایل کوتاه‌تر می‌شه */
+    min-height: 100vh;
     display: flex;
-    flex-wrap: wrap; /* توی موبایل زیر هم */
+    flex-wrap: wrap; 
     justify-content: space-evenly;
     align-items: center;
-    padding: 1rem; /* فاصله از لبه‌ها */
-    gap: 1rem; /* فاصله بین تصویر و متن */
+    padding: 1rem; 
+    gap: 1rem; 
   }
   
-  /* کانتینر تصویر */
   .ImageContainer {
-    width: 90%; /* توی موبایل 90% */
-    /* max-width: 500px; حداکثر عرض */
+    width: 90%; 
+
   }
   
-  /* خود تصویر */
   .ImageContainer > img {
     width: 100%;
     height: auto;
     border-radius: 10px;
   }
   
-  /* کانتینر متن */
   .HeroTextContainer {
-    width: 90%; /* توی موبایل 90% */
-    max-width: 500px; /* حداکثر عرض */
+    width: 90%; 
+    max-width: 500px; 
   }
   
-  /* پاراگراف متن */
   .HeroTextContainer > p {
     width: 100%;
     text-align: justify;
-    font-size: clamp(0.875rem, 3vw, 1rem); /* فونت نسبی */
-    margin: 1rem 0; /* فاصله نسبی */
+    font-size: clamp(0.875rem, 3vw, 1rem); 
+    margin: 1rem 0;
   }
   
-  /* عنوان */
   .HeroTitle {
     background: linear-gradient(45deg, #e6da00, #af4261, violet);
     background-clip: text;
     -webkit-text-fill-color: transparent;
-    font-size: clamp(1.5rem, 5vw, 2.5rem); /* فونت نسبی */
+    font-size: clamp(1.5rem, 5vw, 2.5rem); 
   }
   
-  /* ریسپانسیو */
   @media (min-width: 768px) {
     .Nav-logo {
         width: 10%;
     }
     .ImageContainer,
     .HeroTextContainer {
-      width: 48%; /* توی دسکتاپ و تبلت 48% */
+      width: 48%; 
     }
     .HeroTextContainer > p {
         width: 120%;

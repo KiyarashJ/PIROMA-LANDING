@@ -1,68 +1,42 @@
-/* .SliderLogoContainer{
-    width: 100%;
-    height: auto;
-    display: flex;
-    justify-content: space-evenly;
-    margin: 60px 0;
-}
-.LogosImageContainer{
-    width: 100%;
-    height: 100%;
-}
-.LogosImageContainer>img{
-    width:120px;
-    height: 50px;
-} */
-
-
-
-
-
-
-
-
-
-
-/* ریست اولیه */
 body {
     margin: 0;
     padding: 0;
     overflow-x: hidden;
   }
   
-  /* کانتینر اصلی لوگوها */
+  
   .SliderLogoContainer {
     width: 100%;
     display: flex;
-    flex-wrap: wrap; /* توی موبایل عمودی می‌شه */
+    flex-wrap: wrap; 
     justify-content: space-evenly;
-    align-items: center; /* وسط‌چین عمودی */
-    margin: 3rem 0; /* 60px به rem برای نسبی بودن */
-    padding: 1rem; /* فاصله از لبه‌ها */
-    gap: 1rem; /* فاصله بین لوگوها */
+    align-items: center; 
+    margin: 3rem 0; 
+    padding: 1rem; 
+    gap: 1rem; 
   }
   
-  /* کانتینر هر لوگو */
+  
   .LogosImageContainer {
-    flex: 1 1 auto; /* اندازه انعطاف‌پذیر */
-    max-width: 120px; /* حداکثر عرض لوگو */
-    text-align: center; /* وسط‌چین توی موبایل */
-  }
+    flex: 1 1 auto; 
+    max-width: 120px; 
+    text-align: center; 
+    }
   
-  /* خود لوگو */
+  
   .LogosImageContainer > img {
-    width: 100%; /* نسبی نسبت به کانتینر */
-    max-width: 120px; /* حداکثر اندازه */
-    height: auto; /* تناسب حفظ شه */
+    width: 100%; 
+    max-width: 120px; 
+    height: auto; 
   }
   
-  /* ریسپانسیو */
+  
   @media (max-width: 640px) {
     .SliderLogoContainer {
-      flex-direction: column; /* توی موبایل عمودی */
+      flex-direction: column; 
     }
     .LogosImageContainer {
-      width: 100%; /* توی موبایل کل عرض */
-      max-width: 150px; /* کمی بزرگ‌تر توی موبایل */
+      width: 100%; 
+      max-width: 150px; 
     }
   }

@@ -1,133 +1,18 @@
-/* .AllContainer{
-    width: 100%;
-    position: relative;
-    color: #fff;
-}
-.Img-container{
-    
-    width: 100%;
-    height: 100vh;
-    overflow: hidden;
-}
-.Img-container>img{
-    background-size: cover;
-    filter: brightness(50%);
-}
-.Navbar-container{
-    width: 100%;
-    height: 80px;  
-    background-color: #000;
-    position: fixed;
-    top: 0;
-    left: 0;
-}
-.navbar-flex{
-    width: 100%;
-    height: 100%;
-    display: flex;
-    justify-content: space-around;
-    position: relative;
-}
-.Nav-items{
-    width: 140%;
-    height: 100%;
-}
-.Items-container{
-    list-style: none;
-    display: flex;
-    justify-content: space-evenly;
-}
-.items{
-    padding: 15px;
-    transition: all 0.3s ease;
-}
-.items:hover{
-    cursor: pointer;
-    background-color: #fff;
-    color: #000;
-    border-radius: 15px;
-}
-.Nav-logo{
-    width: 60%;
-    height: 100%;
-    position: relative;   
-}
-.Nav-logo>h1{
-    position: absolute;
-    margin: 30px 25px;
-    top: 0;
-    right: 12%;
-}
-.Nav-logo>img{
-    width: 20%;
-    height: 100%;
-    position: absolute;
-    top: 0;
-    right: 0;
-}
-.textOnBg-Container{
-    position: absolute;
-    top: 30%;
-    left: 31%;
-    font-size: 2rem;
-}
-.Name-span-logo{
-    color: rgb(255, 196, 0) ;
-    font-size: 3rem;
-    margin: 0 150px;
-    font-weight: bolder;
-}
-.logos-buttons-container{
-    position: absolute;
-    top: 80%;
-    left: 12.5%;
-    display: flex;
-}
-.button-container{
-    padding: 25px 55px;
-    border: 1px solid white;
-    font-weight: bolder;
-    margin: 0 10px;
-    transition: all 0.5s ease-in-out;
-}
-.button-container:hover{
-    border-radius: 20px;
-    border: 1px solid rgb(255 , 196 , 0);
-    color: rgb(255 , 196 , 0);
-    cursor: pointer;
-}
 
-
-
- */
-
-
-
-
-
-
-
-
-
-
-
-
-
-/* ریست اولیه */
 body {
     margin: 0;
     padding: 0;
     overflow-x: hidden;
   }
   
-  /* کانتینر اصلی */
+
   .AllContainer {
     width: 100%;
     position: relative;
     color: #fff;
   }
   
-  /* تصویر پس‌زمین */
+
   .Img-container {
     width: 100%;
     height: 100vh;
@@ -136,14 +21,14 @@ body {
   .Img-container > img {
     width: 100%;
     height: 100%;
-    object-fit: cover; /* جایگزین background-size: cover */
+    object-fit: cover; 
     filter: brightness(50%);
   }
   
-  /* نوار导航 */
+
   .Navbar-container {
     width: 100%;
-    height: 60px; /* توی موبایل کوتاه‌تر */
+    height: 60px; 
     background-color: #000;
     position: fixed;
     top: 0;
@@ -152,17 +37,17 @@ body {
   }
   .navbar-flex {
     width: 90%;
-    /* max-width: 1200px; حداکثر عرض */
+  
     height: 100%;
     display: flex;
-    justify-content: space-between; /* بهتر از space-around */
+    justify-content: space-between; 
     align-items: center;
     margin: 0 auto;
   }
   
-  /* آیتم‌های نوار */
+
   .Nav-items {
-    width: auto; /* 140% اشتباه بود */
+    width: auto; 
     height: 100%;
   }
   .Items-container {
@@ -174,9 +59,9 @@ body {
     padding: 0;
   }
   .items {
-    padding: 0.5rem 1rem; /* نسبی */
+    padding: 0.5rem 1rem; 
     transition: all 0.3s ease;
-    font-size: clamp(0.875rem, 3vw, 1rem); /* فونت نسبی */
+    font-size: clamp(0.875rem, 3vw, 1rem); 
     margin: 10px auto;
   }
   .items:hover {
@@ -186,59 +71,59 @@ body {
     border-radius: 15px;
   }
   
-  /* لوگو */
+
   .Nav-logo {
-    width: auto; /* 60% زیاده */
+    width: auto; 
     height: 100%;
     position: relative;
     display: flex;
     align-items: center;
   }
   .Nav-logo > h1 {
-    margin: 0 1rem; /* نسبی */
-    font-size: clamp(1rem, 4vw, 1.5rem); /* فونت نسبی */
+    margin: 0 1rem; 
+    font-size: clamp(1rem, 4vw, 1.5rem); 
   }
   .Nav-logo > img {
-    width: 40px; /* اندازه ثابت بهتره */
+    width: 40px; 
     height: auto;
     margin-right: 0.5rem;
   }
   
-  /* متن روی تصویر */
+
   .textOnBg-Container {
     position: absolute;
     top: 30%;
     left: 50%;
-    transform: translateX(-50%); /* وسط‌چین */
-    font-size: clamp(1.25rem, 5vw, 2rem); /* فونت نسبی */
+    transform: translateX(-50%); 
+    font-size: clamp(1.25rem, 5vw, 2rem); 
     text-align: center;
     width: 90%;
   }
   .Name-span-logo {
     color: rgb(255, 196, 0);
-    font-size: clamp(1.5rem, 6vw, 3rem); /* فونت نسبی */
+    font-size: clamp(1.5rem, 6vw, 3rem); 
     font-weight: bolder;
     margin: 0.5rem 0;
   }
   
-  /* دکمه‌ها */
+
   .logos-buttons-container {
     position: absolute;
-    top: 70%; /* توی موبایل تنظیم می‌شه */
+    top: 70%; 
     left: 50%;
     transform: translateX(-50%);
     display: flex;
-    flex-wrap: wrap; /* توی موبایل زیر هم */
+    flex-wrap: wrap; 
     justify-content: center;
-    gap: 0.5rem; /* فاصله بین دکمه‌ها */
+    gap: 0.5rem; 
     width: 90%;
   }
   .button-container {
-    padding: 1rem 2rem; /* نسبی */
+    padding: 1rem 2rem; 
     border: 1px solid white;
     font-weight: bolder;
     transition: all 0.5s ease-in-out;
-    font-size: clamp(0.875rem, 3vw, 1rem); /* فونت نسبی */
+    font-size: clamp(0.875rem, 3vw, 1rem); 
   }
   .button-container:hover {
     border-radius: 20px;
@@ -247,15 +132,15 @@ body {
     cursor: pointer;
   }
   
-  /* ریسپانسیو */
+
   @media (max-width: 768px) {
     .Navbar-container {
-      height: 50px; /* کوتاه‌تر توی موبایل */
+      height: 50px; 
       position: absolute;
       top: 0;
     }
     .navbar-flex {
-      flex-direction: column; /* توی موبایل زیر هم */
+      flex-direction: column; 
       height: auto;
       padding: 0.5rem auto;
     }
@@ -269,13 +154,13 @@ body {
         display: none;
     }
     .Items-container {
-      flex-direction: column; /* آیتم‌ها عمودی */
+      flex-direction: column; 
     }
     .logos-buttons-container {
-      top: 60%; /* تنظیم برای موبایل */
+      top: 60%; 
     }
     .button-container {
-      padding: 0.75rem 1.5rem; /* کوچیک‌تر توی موبایل */
+      padding: 0.75rem 1.5rem; 
     }
   }
   @media (min-width: 769px) {

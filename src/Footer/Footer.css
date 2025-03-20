@@ -1,162 +1,78 @@
-/* .FooterAllCon{
-    color: #fff;
-    margin-top: 100px;
-    width: 100%;
-    height: 400px;
-    background-image: linear-gradient(to bottom right , #004d6b , #007041);
-    background-size: 400% 400%;
-    animation: BgMoving 3s running infinite ease-in-out;
-}
 
-.FooterUpSec{
-    width: 100%;
-    height: 80%;
-    display: flex;
-    justify-content: space-evenly;
-}
-.Links{
-    width: 30%;
-}
-.Links>a{
-    width: 75%;
-    display: block;
-    text-decoration: none;
-    color: #fff;
-    font-size: 30px;
-    margin: 15px 10px;
-}
-.Social-Media{
-    width: 30%;
-}
-.Logo{
-    width: 30%;
-    position: relative;
-}
-.Logo>img{
-    width: 150px;
-    position: absolute;
-    top: 50%;
-    left: 70%;
-    
-}
-.fa-brands{
-    display: block;
-    font-size: 30px;
-    margin: 15px 10px ;
-    cursor: pointer;
-    letter-spacing: 2px;
-}
-
-
-.fa-brands:hover , a:hover{
-    background: linear-gradient(to right , rgb(255, 0, 170) , rgb(72, 0, 105) , rgb(255, 72, 0));
-    background-clip: text;
-    background-size: 500% 500%;
-    -webkit-text-fill-color: transparent;
-    animation: BgMoving 2s infinite ease-in-out running;
-}
-
-address{
-    margin-top: 20px;
-}
-
-@keyframes BgMoving {
-    0%{ background-position: 0% 45%;}
-    25%{ background-position: 39% 78%;}
-    50%{ background-position: 78% 100%;}
-    75%{ background-position: 43% 41%;}
-    100%{ background-position: 0% 18%;}
-}
- */
-
-
-
-
-
-
-
-
-
-
-
-
-
-
- /* ریست اولیه */
 body {
     margin: 0;
     padding: 0;
     overflow-x: hidden;
   }
   
-  /* کانتینر اصلی فوتر */
+  
   .FooterAllCon {
     color: #fff;
-    margin-top: 5rem; /* 100px به rem */
+    margin-top: 5rem; 
     width: 100%;
-    min-height: 300px; /* توی موبایل کوتاه‌تر */
+    min-height: 300px; 
     background-image: linear-gradient(to bottom right, #004d6b, #007041);
     background-size: 400% 400%;
     animation: BgMoving 3s infinite ease-in-out;
-    padding: 2rem 1rem; /* فاصله داخلی */
+    padding: 2rem 1rem; 
     box-sizing: border-box;
   }
   
-  /* بخش بالایی فوتر */
+  
   .FooterUpSec {
     width: 90%;
-    max-width: 1200px; /* حداکثر عرض */
+    max-width: 1200px; 
     margin: 0 auto;
     height: 80%;
     display: flex;
-    flex-wrap: wrap; /* توی موبایل زیر هم */
+    flex-wrap: wrap; 
     justify-content: space-evenly;
-    gap: 1rem; /* فاصله بین بخش‌ها */
+    gap: 1rem; 
   }
   
-  /* لینک‌ها */
+  
   .Links {
-    width: 90%; /* توی موبایل 90% */
-    max-width: 300px; /* حداکثر عرض */
+    width: 90%; 
+    max-width: 300px; 
   }
   .Links > a {
     display: block;
     text-decoration: none;
     color: #fff;
-    font-size: clamp(1.25rem, 4vw, 1.875rem); /* 30px نسبی */
-    margin: 0.9375rem 0.625rem; /* 15px و 10px به rem */
+    font-size: clamp(1.25rem, 4vw, 1.875rem); 
+    margin: 0.9375rem 0.625rem; 
   }
   
-  /* شبکه‌های اجتماعی */
+  
   .Social-Media {
-    width: 90%; /* توی موبایل 90% */
+    width: 90%; 
     max-width: 300px;
   }
   
-  /* لوگو */
+  
   .Logo {
-    width: 90%; /* توی موبایل 90% */
+    width: 90%; 
     max-width: 300px;
     position: relative;
     display: flex;
-    justify-content: center; /* وسط‌چین */
+    justify-content: center; 
   }
   .Logo > img {
     width: 100%;
-    max-width: 100px; /* حداکثر اندازه */
+    max-width: 100px; 
     height: 100px;
   }
   
-  /* آیکون‌های شبکه‌های اجتماعی */
+  
   .fa-brands {
     display: block;
-    font-size: clamp(1.25rem, 4vw, 1.875rem); /* 30px نسبی */
-    margin: 0.9375rem 0.625rem; /* 15px و 10px به rem */
+    font-size: clamp(1.25rem, 4vw, 1.875rem); 
+    margin: 0.9375rem 0.625rem; 
     cursor: pointer;
     letter-spacing: 2px;
   }
   
-  /* هاور */
+  
   .fa-brands:hover,
   a:hover {
     background: linear-gradient(to right, rgb(255, 0, 170), rgb(72, 0, 105), rgb(255, 72, 0));
@@ -166,14 +82,14 @@ body {
     animation: BgMoving 2s infinite ease-in-out;
   }
   
-  /* آدرس */
+  
   address {
-    margin-top: 1.25rem; /* 20px به rem */
-    font-size: clamp(0.875rem, 3vw, 1rem); /* فونت نسبی */
+    margin-top: 1.25rem; 
+    font-size: clamp(0.875rem, 3vw, 1rem); 
     text-align: center;
   }
   
-  /* انیمیشن */
+  
   @keyframes BgMoving {
     0% { background-position: 0% 45%; }
     25% { background-position: 39% 78%; }
@@ -182,14 +98,14 @@ body {
     100% { background-position: 0% 18%; }
   }
   
-  /* ریسپانسیو */
+  
   @media (min-width: 768px) {
     .FooterAllCon {
-      min-height: 400px; /* توی دسکتاپ بلندتر */
+      min-height: 400px; 
     }
     .Links,
     .Social-Media,
     .Logo {
-      width: 30%; /* توی دسکتاپ 30% */
+      width: 30%; 
     }
   }

@@ -1,146 +1,41 @@
-/* .ContactUsAllCon{
-    color: #fff;
-    width: 100%;
-}
-.YourInfosSec{
-    display: flex;
-    justify-content: space-evenly;
-    width: 100%;
-}
-.YourInfosSec>input{
-    all: unset;
-    width: 28%;   
-    height: 40px;
-    background-color: rgb(46, 0, 66);
-    padding: 5px 10px;
-    border-radius: 15px;
-    transition: all 0.5s ease;
-}
-.Email-Title{
-    width: 100%;
-}
-.Email-Title>input{
-    all: unset;
-    height: 40px;
-    background-color: rgb(46, 0, 66);
-    margin: 30px 225px;
-    width: 65%;
-    padding: 5px 10px;
-    border-radius: 15px;
-    transition: all 0.5s ease;
-}
-textarea{
-    all: unset;
-    background-color: rgb(46, 0, 66);
-    border-radius: 15px;
-    padding: 5px 10px;
-    width: 65%;
-    margin: 15px 225px;
-    height: 160px;
-}
-::placeholder{
-    color: rgba(255, 255, 255 , 0.6);
-}
-.YourInfosSec>input:hover ,
-.Email-Title>input:hover 
-{
-    border-radius: 100px;
-}
-.buttonCon{
-    width: 50%;
-    margin: 20px 550px;
-}
-.submitBtn{
-    all: unset;
-    padding: 20px 50px;
-    background-color: rgb(46, 0, 66);
-    position: relative;
-    transition: all 0.4s ease-in-out;
-}
-.submitBtn::before{
-    content: "";
-    position: absolute;
-    top: 0;
-    left: 0;
-    background-color: rgb(119, 0, 155);
-    translate: -250%;
-    transition: all 0.1s ease-in-out;
-}
-.submitBtn:hover::before{
-    content: "Send Mail";
-    translate: 0;
-    border-radius: 15px;
-    padding: 20px 50px;
-}
-.submitBtn:hover{
-    border-radius: 15px;
-    color: rgb(46, 0, 66);
-} */
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/* ریست اولیه */
 body {
     margin: 0;
     padding: 0;
     overflow-x: hidden;
   }
   
-  /* کانتینر اصلی تماس */
+  
   .ContactUsAllCon {
     color: #fff;
     width: 100%;
-    padding: 2rem 1rem; /* فاصله داخلی */
+    padding: 2rem 1rem; 
   }
   
-  /* بخش اطلاعات */
+  
   .YourInfosSec {
     display: flex;
-    flex-wrap: wrap; /* توی موبایل زیر هم */
+    flex-wrap: wrap; 
     justify-content: space-evenly;
     width: 90%;
-    max-width: 1200px; /* حداکثر عرض */
+    max-width: 1200px;
     margin: 0 auto;
-    gap: 1rem; /* فاصله بین اینپوت‌ها */
+    gap: 1rem; 
   }
   
-  /* اینپوت‌های اطلاعات */
+  
   .YourInfosSec > input {
     all: unset;
-    width: 100%; /* توی موبایل 100% */
-    max-width: 300px; /* حداکثر عرض */
+    width: 100%; 
+    max-width: 300px; 
     height: 40px;
     background-color: rgb(46, 0, 66);
-    padding: 0.3125rem 0.625rem; /* 5px و 10px به rem */
+    padding: 0.3125rem 0.625rem; 
     border-radius: 15px;
     transition: all 0.5s ease;
   }
   
-  /* عنوان ایمیل */
+  
   .Email-Title {
     width: 90%;
     max-width: 1200px;
@@ -150,16 +45,16 @@ body {
     all: unset;
     height: 40px;
     background-color: rgb(46, 0, 66);
-    margin: 1.875rem auto; /* 30px به rem، وسط‌چین */
+    margin: 1.875rem auto; 
     width: 80%;
-    max-width: 600px; /* حداکثر عرض */
+    max-width: 600px; 
     padding: 0.3125rem 0.625rem;
     border-radius: 15px;
     transition: all 0.5s ease;
     display: block;
   }
   
-  /* تکست‌اریا */
+  
   textarea {
     all: unset;
     background-color: rgb(46, 0, 66);
@@ -167,34 +62,34 @@ body {
     padding: 0.3125rem 0.625rem;
     width: 80%;
     max-width: 600px;
-    margin: 0.9375rem auto; /* 15px به rem، وسط‌چین */
+    margin: 0.9375rem auto; 
     height: 160px;
     display: block;
   }
   
-  /* پلِیس‌هولدر */
+  
   ::placeholder {
     color: rgba(255, 255, 255, 0.6);
   }
   
-  /* هاور اینپوت‌ها */
+  
   .YourInfosSec > input:hover,
   .Email-Title > input:hover {
     border-radius: 100px;
   }
   
-  /* کانتینر دکمه */
+  
   .buttonCon {
     width: 90%;
     max-width: 600px;
-    margin: 1.25rem auto; /* 20px به rem، وسط‌چین */
+    margin: 1.25rem auto; 
     text-align: center;
   }
   
-  /* دکمه ارسال */
+  
   .submitBtn {
     all: unset;
-    padding: 1.25rem 3.125rem; /* 20px و 50px به rem */
+    padding: 1.25rem 3.125rem; 
     background-color: rgb(46, 0, 66);
     position: relative;
     transition: all 0.4s ease-in-out;
@@ -209,7 +104,7 @@ body {
     width: 100%;
     height: 100%;
     background-color: rgb(119, 0, 155);
-    transform: translateX(-2000%); /* از چپ میاد */
+    transform: translateX(-2000%); 
     transition: all 0.4s ease-in-out;
     z-index: -1;
   }
@@ -223,13 +118,13 @@ body {
     color: rgb(46, 0, 66);
   }
   
-  /* ریسپانسیو */
+  
   @media (min-width: 768px) {
     .YourInfosSec > input {
-      width: 28%; /* توی دسکتاپ 28% */
+      width: 28%; 
     }
     .Email-Title > input,
     textarea {
-      width: 65%; /* توی دسکتاپ 65% */
+      width: 65%; 
     }
   }

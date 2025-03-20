@@ -1,160 +1,90 @@
-/* 
 
-.StaffsRandDataAllCon{
-
-    background:linear-gradient(to bottom right , rgb(1, 255, 179) , rgb(241, 245, 0));
-    margin: 80px auto;
-    width: 98%;
-    height: 100vh;
-    border-radius: 50px;
-    box-shadow: 1px 1px 10px 1px #5f5f5f;
-}
-.StaffsRandDataCon{
-    margin: 0 auto;
-    width: 90%;
-    height: 100%;
-    display: flex;
-    justify-content: space-around;
-}
-.ImgCon{
-    margin: 60px 0;
-    width: 40%;
-    height: auto;
-}
-.ImgCon>img{
-    width: 100%;
-    border-radius: 10px;
-}
-.TextCon{
-    width: 50%;
-    margin: 0 10px;
-}
-.titleCon{
-    margin: 40px 0;
-}
-
-.flexedTexts{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    width: 100%;
-    margin: 60px 0;
-}
-.T1{
-    width: 240px;
-
-}
-.T1>p{
-    color : #5f5f5f;
-} */
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/* ریست اولیه */
 body {
     margin: 0;
     padding: 0;
     overflow-x: hidden;
   }
   
-  /* کانتینر اصلی */
+  
   .StaffsRandDataAllCon {
     background: linear-gradient(to bottom right, rgb(1, 255, 179), rgb(241, 245, 0));
-    margin: 5rem auto; /* 80px به rem */
-    width: 95%; /* 98% به 95% برای فاصله بهتر */
-    min-height: 80vh; /* توی موبایل کوتاه‌تر */
+    margin: 5rem auto; 
+    width: 95%; 
+    min-height: 80vh; 
     border-radius: 50px;
     box-shadow: 1px 1px 10px 1px #5f5f5f;
-    padding: 1rem; /* فاصله داخلی */
+    padding: 1rem;
     box-sizing: border-box;
   }
   
-  /* کانتینر محتوا */
+  
   .StaffsRandDataCon {
     margin: 0 auto;
     width: 90%;
-    max-width: 1200px; /* حداکثر عرض */
-    min-height: 100%; /* توی موبایل تنظیم شه */
+    max-width: 1200px; 
+    min-height: 100%; 
     display: flex;
-    flex-wrap: wrap; /* توی موبایل زیر هم */
+    flex-wrap: wrap; 
     justify-content: space-around;
-    gap: 1rem; /* فاصله بین تصویر و متن */
+    gap: 1rem; 
   }
   
-  /* کانتینر تصویر */
+
   .ImgCon {
-    margin: 2rem 0; /* 60px به rem */
-    width: 90%; /* توی موبایل 90% */
-    max-width: 500px; /* حداکثر عرض */
+    margin: 2rem 0; 
+    width: 90%; 
+    max-width: 500px; 
   }
   
-  /* خود تصویر */
+  
   .ImgCon > img {
     width: 100%;
     height: auto;
     border-radius: 10px;
   }
   
-  /* کانتینر متن */
+  
   .TextCon {
-    width: 90%; /* توی موبایل 90% */
-    max-width: 600px; /* حداکثر عرض */
-    margin: 0 0.625rem; /* 10px به rem */
+    width: 90%; 
+    max-width: 600px; 
+    margin: 0 0.625rem; 
   }
   
-  /* عنوان */
+  
   .titleCon {
-    margin: 2.5rem 0; /* 40px به rem */
-    font-size: clamp(1.5rem, 5vw, 2rem); /* فونت نسبی */
+    margin: 2.5rem 0; 
+    font-size: clamp(1.5rem, 5vw, 2rem); 
   }
   
-  /* متن‌های فلکس‌شده */
+  
   .flexedTexts {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
     width: 100%;
-    margin: 3.75rem 0; /* 60px به rem */
-    gap: 1rem; /* فاصله بین متن‌ها */
+    margin: 3.75rem 0; 
+    gap: 1rem; 
   }
   
-  /* هر متن */
+  
   .T1 {
-    width: 100%; /* توی موبایل 100% */
-    max-width: 240px; /* حداکثر عرض */
+    width: 100%; 
+    max-width: 240px; 
   }
   .T1 > p {
     color: #5f5f5f;
-    font-size: clamp(0.875rem, 3vw, 1rem); /* فونت نسبی */
+    font-size: clamp(0.875rem, 3vw, 1rem); 
   }
   
-  /* ریسپانسیو */
+  
   @media (min-width: 768px) {
     .ImgCon {
-      width: 40%; /* توی دسکتاپ 40% */
+      width: 40%; 
     }
     .TextCon {
-      width: 50%; /* توی دسکتاپ 50% */
+      width: 50%; 
     }
     .StaffsRandDataAllCon {
-      min-height: 100vh; /* توی دسکتاپ بلندتر */
+      min-height: 100vh; 
     }
   }

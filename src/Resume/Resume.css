@@ -1,88 +1,54 @@
-/* .ProductsAllCon{
-    display: flex;
-    justify-content: space-evenly;
-    width: 100%;
-    flex-wrap: wrap;
-    align-items: stretch;
-}
-.ProductImgContainer{
-    display: flex;
-    justify-content: space-around;
-    align-items: stretch;
-    height: auto;
-}
-.ProductImgContainer>img{
-    width: 100%;
-    margin: 20px 0;
-    transition: all 0.2s ease-out;
-}
-.ProductImgContainer>img:hover{
-    filter: brightness(50%);
-    border-radius: 10px;
-    box-shadow: 2px 2px 10px 2px #a8a8a8;
-} */
 
-
-
-
-
-
-
-
-
-
-
-/* ریست اولیه */
 body {
     margin: 0;
     padding: 0;
     overflow-x: hidden;
   }
   
-  /* کانتینر اصلی محصولات */
+
   .ProductsAllCon {
     width: 100%;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
     align-items: stretch;
-    gap: 1rem; /* فاصله بین محصولات */
-    padding: 1rem; /* فاصله از لبه‌ها */
+    gap: 1rem; 
+    padding: 1rem; 
   }
   
-  /* کانتینر هر محصول */
+
   .ProductImgContainer {
-    width: 90%; /* توی موبایل 90% */
-    max-width: 300px; /* حداکثر عرض */
+    width: 90%; 
+    max-width: 300px; 
     display: flex;
-    justify-content: center; /* عکس وسط باشه */
+    justify-content: center; 
     align-items: center;
   }
   
-  /* خود عکس */
+
   .ProductImgContainer > img {
     width: 100%;
-    max-width: 100%; /* توی کانتینر بمونه */
-    height: auto; /* تناسب حفظ شه */
-    margin: 1.25rem 0; /* 20px به rem */
+    max-width: 100%; 
+    height: auto; 
+    margin: 1.25rem 0; 
     transition: all 0.2s ease-out;
   }
   
-  /* هاور */
+
   .ProductImgContainer > img:hover {
     filter: brightness(50%);
     border-radius: 10px;
     box-shadow: 2px 2px 10px 2px #a8a8a8;
   }
   
-  /* ریسپانسیو */
+
   @media (min-width: 640px) {
     .ProductImgContainer {
-      width: 45%; /* توی تبلت 45% */
+      width: 45%; 
     }
   }
   @media (min-width: 1024px) {
     .ProductImgContainer {
-      width: 30%; /* توی دسکتاپ 30% */
+      width: 30%; 
     }
   }
