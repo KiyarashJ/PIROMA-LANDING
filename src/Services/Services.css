@@ -1,0 +1,119 @@
+/* .ServicesAllCon{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+
+}
+.BoxCon{
+    border: 0.1px solid #e9e9e9;
+    width: 30%;
+    margin: 20px 0 0 0;
+    padding: 35px 15px;
+    border-radius: 15px;
+    transition: all 0.2s ease;
+}
+.BoxCon>i{
+    width: 100%;
+    text-align: center;
+    font-size: 25px;
+}
+.BoxCon>h3{
+    width: 100%;
+    text-align: center;
+}
+.BoxCon>p{
+    text-align: justify;
+    margin: 15px 0 5px;
+}
+.BoxCon:hover{
+    outline: none;
+    border: none;
+    box-shadow: 2px 2px 5px 1px #b9b9b9 ;
+    background-color: aqua;
+    
+} */
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ریست اولیه */
+body {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+  }
+  
+  /* کانتینر اصلی سرویس‌ها */
+  .ServicesAllCon {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    gap: 1rem; /* فاصله بین باکس‌ها */
+    padding: 1rem; /* فاصله از لبه‌ها */
+  }
+  
+  /* هر باکس سرویس */
+  .BoxCon {
+    border: 0.1px solid #e9e9e9;
+    width: 90%; /* توی موبایل 90% */
+    max-width: 350px; /* حداکثر عرض */
+    margin: 1rem 0 0 0; /* 20px به rem */
+    padding: 2rem 1rem; /* 35px و 15px به rem */
+    border-radius: 15px;
+    transition: all 0.2s ease;
+    box-sizing: border-box; /* پدینگ توی عرض حساب شه */
+  }
+  
+  /* آیکون */
+  .BoxCon > i {
+    width: 100%;
+    text-align: center;
+    font-size: clamp(1.25rem, 5vw, 1.5625rem); /* 25px نسبی */
+  }
+  
+  /* عنوان */
+  .BoxCon > h3 {
+    width: 100%;
+    text-align: center;
+    font-size: clamp(1.125rem, 4vw, 1.5rem); /* نسبی */
+    margin: 0.5rem 0;
+  }
+  
+  /* توضیحات */
+  .BoxCon > p {
+    text-align: justify;
+    margin: 0.9375rem 0 0.3125rem; /* 15px و 5px به rem */
+    font-size: clamp(0.875rem, 3vw, 1rem); /* نسبی */
+  }
+  
+  /* هاور */
+  .BoxCon:hover {
+    outline: none;
+    border: none;
+    box-shadow: 2px 2px 5px 1px #b9b9b9;
+    background-color: aqua;
+  }
+  
+  /* ریسپانسیو */
+  @media (min-width: 640px) {
+    .BoxCon {
+      width: 45%; /* توی تبلت 45% */
+    }
+  }
+  @media (min-width: 1024px) {
+    .BoxCon {
+      width: 30%; /* توی دسکتاپ 30% */
+    }
+  }
