@@ -1,0 +1,32 @@
+{
+  "files": {
+    "main.css": "/PIROMA-LANDING/static/css/main.a2f395a5.css",
+    "main.js": "/PIROMA-LANDING/static/js/main.4562eb34.js",
+    "static/media/Jersey25-Regular.ttf": "/PIROMA-LANDING/static/media/Jersey25-Regular.124a1cfeb3bb037fee5b.ttf",
+    "static/media/hero-bg.jpg": "/PIROMA-LANDING/static/media/hero-bg.fa6c455cbec2a3f793f9.jpg",
+    "static/media/logo.png": "/PIROMA-LANDING/static/media/logo.006f7a2de9bb53304755.png",
+    "static/media/about.jpg": "/PIROMA-LANDING/static/media/about.8498bb5a6bb57ce22b96.jpg",
+    "static/media/portfolio-2.jpg": "/PIROMA-LANDING/static/media/portfolio-2.4a62f4448628b08cfd47.jpg",
+    "static/media/features.jpg": "/PIROMA-LANDING/static/media/features.6d02393b972240830f51.jpg",
+    "static/media/portfolio-7.jpg": "/PIROMA-LANDING/static/media/portfolio-7.db43fe1e5729fdcb80d6.jpg",
+    "static/media/counts-img.jpg": "/PIROMA-LANDING/static/media/counts-img.094a7e63c0e77f9bf822.jpg",
+    "static/media/portfolio-3.jpg": "/PIROMA-LANDING/static/media/portfolio-3.2a8eb861c8751b157147.jpg",
+    "static/media/team-2.jpg": "/PIROMA-LANDING/static/media/team-2.b2008acdf74612d89b8f.jpg",
+    "static/media/team-1.jpg": "/PIROMA-LANDING/static/media/team-1.30c859cd9a02bb5dcc9a.jpg",
+    "static/media/team-3.jpg": "/PIROMA-LANDING/static/media/team-3.ca581ae1628e295ec2a0.jpg",
+    "static/media/portfolio-8.jpg": "/PIROMA-LANDING/static/media/portfolio-8.3c46c6c1343ceb2aeb74.jpg",
+    "static/media/team-4.jpg": "/PIROMA-LANDING/static/media/team-4.525dee063b26d6a44d1d.jpg",
+    "static/media/portfolio-1.jpg": "/PIROMA-LANDING/static/media/portfolio-1.f8a4f20b1b6d6ee85702.jpg",
+    "static/media/portfolio-9.jpg": "/PIROMA-LANDING/static/media/portfolio-9.fbfa970774a6b6c830d0.jpg",
+    "static/media/portfolio-6.jpg": "/PIROMA-LANDING/static/media/portfolio-6.84b78cea838c36fac922.jpg",
+    "static/media/portfolio-5.jpg": "/PIROMA-LANDING/static/media/portfolio-5.940ac6c8dea7f45f338f.jpg",
+    "static/media/portfolio-4.jpg": "/PIROMA-LANDING/static/media/portfolio-4.ab6a84ccac895007e9c3.jpg",
+    "index.html": "/PIROMA-LANDING/index.html",
+    "main.a2f395a5.css.map": "/PIROMA-LANDING/static/css/main.a2f395a5.css.map",
+    "main.4562eb34.js.map": "/PIROMA-LANDING/static/js/main.4562eb34.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a2f395a5.css",
+    "static/js/main.4562eb34.js"
+  ]
+}
